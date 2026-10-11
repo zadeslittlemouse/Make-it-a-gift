@@ -1,0 +1,24 @@
+/* ===== DARK EDITION: plum-night chrome; gifts, envelopes and polaroids stay paper ===== */
+:root{--ivory:#1A1017;--blush:#26161F;--char:#F4E9EC;--soft:#BEABB3;--line:rgba(244,233,236,.17);--berry:#EDB9C6;--rose:#D58FA1;color-scheme:dark}
+.hc-card,.pol,.slip,.env,.thumb,.gift,.view,.g-final,.music{--ivory:#FFF9F3;--blush:#F6E4E5;--char:#393236;--soft:#6d6168;--line:rgba(57,50,54,.14);--berry:#713D52;--rose:#C98291}
+html{background:var(--ivory)}
+body{background:radial-gradient(60% 45% at 85% -5%,rgba(213,143,161,.18),transparent 70%),radial-gradient(50% 40% at 0% 60%,rgba(245,229,168,.06),transparent 70%),var(--ivory)}
+::selection{background:#C98291;color:#1A1017}
+.grain{mix-blend-mode:screen;opacity:.045}
+.hdr{background:rgba(26,16,23,.88)}
+.btn:hover{background:rgba(237,185,198,.1)}
+.btn.primary{background:#9A4F6B;color:#fff;border-color:#9A4F6B;box-shadow:0 10px 26px -12px rgba(213,143,161,.55)}
+.btn.primary:hover{background:#B0607E}
+.view .btn.primary{background:#713D52;border-color:#713D52}
+.skip,.prog li.done .n,.prog li[aria-current=step] .n{background:#9A4F6B;color:#fff}
+input,textarea,select{background:#2A1B25;border-color:rgba(244,233,236,.3);color:var(--char)}
+input::placeholder,textarea::placeholder{color:#9C8A93}
+.xcard,.tag{background:#2A1B25}
+.empty{background:rgba(255,255,255,.04);border-color:rgba(237,185,198,.35)}
+.note{border-color:rgba(237,185,198,.3)}
+.fs-close{background:#2A1B25}
+.toast{background:#F4E9EC;color:#1A1017}
+.thumb{box-shadow:0 18px 34px -20px #000,0 0 0 1px rgba(244,233,236,.1)}
+.hc-card,.pol{box-shadow:0 24px 44px -22px #000}
+.cta-band{background:linear-gradient(160deg,#2E1B27,#211219)}
+.hero h1{text-shadow:0 0 40px rgba(213,143,161,.2)}
